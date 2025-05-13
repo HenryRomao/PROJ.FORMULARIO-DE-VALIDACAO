@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de validação</title>
+
+    <link rel="stylesheet" href="./Src/Css/reset.css">
+    <link rel="stylesheet" href="./Src/Css/style.css">
+    <link rel="stylesheet" href="./Src/Css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="informations">
+        <h1 class="title">
+            FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!
+        </h1>
+
+        <h2 class="text">
+            Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+        </h2>
+    </div>
+
+    <div class="box">
+        <ul class="form">
+            <li>
+                <input id="name" class="normal-state valid-tab invalid-tab hide" name="text" placeholder="Nome completo *">
+                <p class="mandatory active-hide">campo obrigatório</p>
+            </li>
+
+            <li>
+                <input id="mail" class="normal-state valid-tab invalid-tab hide" name="text" placeholder="Email *">
+                <p class="mandatory active-hide">campo obrigatório</p>
+            </li>
+
+            <li>
+                <input id="fone" class=" normal-state valid-tab invalid-tab hide" name="text" onkeyup="formatarTelefone(this)" maxlength="14" placeholder="Telefone *">
+                <p class="mandatory active-hide">campo obrigatório</p>
+            </li>
+
+            <li>
+                <textarea id="message" class="normal-state valid-tab invalid-tab hide" name="text" placeholder="Mensagem *"></textarea>
+                <p class="mandatory active-hide">campo obrigatório</p>
+            </li>
+        </ul>
+
+        <h3 class="advice">
+            *campos obrigatórios
+        </h3>
+
+        <button href="#" type="submit" class="btn">
+            <h4>Enviar</h4>
+        </button>
+    </div>
+
+    <script type="text/javascript" src="./Src/JS/index.js"></script>
+</body>
+</htm

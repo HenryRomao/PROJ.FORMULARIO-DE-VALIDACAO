@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../Img/wall.jpg);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.informations {
+    width: 300px;
+    height: 111px;
+    margin-left: -61px;
+    color: #FFFFFF;
+}
+
+.informations .title {
+    width: 287px;
+    height: 46px;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 16px 0 0 61px;
+}
+
+.informations .text {
+    width: 300px;
+    height: 54px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 16px 0 0 61px;
+}
+
+.box {
+    background-color: #ffffff;
+    width: 340px;
+    height: 380px;
+    margin-left: 100px;
+    border-radius: 1px #000000;
+}
+
+.form {
+    text-align: center;
+    list-style-type: none;
+}
+
+input, textarea {
+    border: 1px solid;
+    padding: 10px;
+}
+
+li #name {
+    width: 298px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+}
+
+li #name::placeholder {
+    width: 125px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #A8A8A8;
+}
+
+li #mail {
+    width: 298px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+li #mail::placeholder {
+    width: 52px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #A8A8A8;
+}
+
+li #fone {
+    width: 298px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+li #fone::placeholder {
+    width: 86px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #A8A8A8;
+}
+
+li #message {
+    width: 298px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+
+li #message::placeholder {
+    font-family: 'Roboto', sans-serif;
+    top: 5px;
+    left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #A8A8A8;
+}
+
+li .mandatory {
+    width: 66px;
+    height: 9px;
+    margin-left: 21px;
+    font-weight: 400;
+    font-size: 8px;
+    color: #F52E2E;
+}
+
+.valid-tab.hide {
+    border: 1px solid #00C22B;
+} 
+
+.invalid-tab.hide {
+    border: 1px solid #F52E2E;
+}
+
+.active-hide{
+    display: none;
+}
+
+.normal-state.hide {
+    border: 1px solid #000000;
+}
+
+.advice {
+    width: 145px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 14px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.btn {
+    width: 298px;
+    height: 40px;
+    margin: 10px 0 0 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3CCC87;
+    cursor: pointer;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+}
