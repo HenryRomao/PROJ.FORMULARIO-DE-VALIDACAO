@@ -2,8 +2,6 @@ const btnSubmit = document.querySelector(".btn");
 
 const tabsForm = document.querySelectorAll("input, textarea[name='text']");
 
-const invalidEValidTabs = document.querySelectorAll(".normal-state, .valid-tab, .invalid-tab");
-
 const activeWarning = document.querySelectorAll(".active-hide");
 
 btnSubmit.addEventListener('click', () => {
@@ -11,6 +9,7 @@ btnSubmit.addEventListener('click', () => {
         if (item.value === '') {
             item.classList.remove('normal-state');
             activeWarning[index].classList.remove('active-hide');
+            item.classList.add('invalid-tab');
         } else {
             item.classList.remove('normal-state', 'invalid-tab');
             activeWarning[index].classList.add('active-hide');
